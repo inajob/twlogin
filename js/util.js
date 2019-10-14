@@ -24,7 +24,7 @@ function loadFileList(f, prefix){
 	f();
 	return;
     }
-    prefix = prefix===undefined?"../":prefix;
+    prefix = prefix===undefined?"./":prefix;
     $.ajax({
 	   type:'GET',
 	   url:prefix + 'files.list',
