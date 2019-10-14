@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=3.0; user-scalable=1;">
+<script src="js/jquery-1.4.2.min.js"></script>
+<script src="js/jquery.karuki.js"></script>
+<script src="js/keys.js"></script>
+<script src="js/util.js"></script>
+<script src="js/jquery-ui-1.8.5.custom.min.js"></script>
+<script src="js/jquery.json-2.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.layout.min-1.2.0.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="js/jquery.flickable-1.0b3.min.js"></script>
+<script type="text/javascript" src="js/jquery-fieldselection.min.js"></script>
+<script type="text/javascript" src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/knsv/mermaid/0.5.8/dist/mermaid.min.js"></script>
+<script src="js/wiki_d.js"></script>
+<script src="js/icon.js"></script>
+<script src="js/elmCacher.js"></script>
+<script src="js/wiki_karuki.js"></script>
+<script src="js/wikiedit.js"></script>
+<script src="js/gin.js"></script>
+<script src="js/mt.js"></script>
+<script src="js/mcl.js"></script>
+<script src="js/render.js"></script>
+<!--<script src="js/mce.js"></script>-->
+
+<script>
+  <!--
+
+    -->
+</script>
+<link rel="STYLESHEET" href="data/style.css" type="text/css"></link>
+<link rel="STYLESHEET" href="https://cdn.rawgit.com/knsv/mermaid/0.5.8/dist/mermaid.forest.css" type="text/css"></link>
+<link rel="STYLESHEET" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css"></link>
+<link rel="STYLESHEET" href="http://yandex.st/highlightjs/6.2/styles/sunburst.min.css" type="text/css"></link>
+<style>
+*{
+margin:0px;
+padding:0px;
+}
+ul{
+margin-left:1em;
+padding-left:1em;
+}
+.toolbar{
+background-color:#ddd;
+height:24px;
+}
+h1#title{
+font-size:small;
+}
+.toolbar .button{
+width:64px;
+height:24px;
+margin:0px;
+text-align:center;
+background-color:#ddf;
+border:outset 1px;
+}
+textarea{
+ padding:3px;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+.popup{
+position:absolute;
+width:60%;
+height:100%;
+top:0%;
+left:20%;
+background-color:green;
+z-index:1000;
+overflow:auto;
+}
+
+.popup-content{
+margin-top:3em;
+}
+.popup-content input{
+font-size:large;
+padding-top:2em;
+}
+
+
+.elm{
+background-color:#ddd;
+margin:0.2em;
+}
+
+
+
+.twitpic{
+border:solid #4aa;
+border-width: 10px 1px 1px 1px;
+background-color:white;
+padding:1em;
+text-align:center;
+}
+
+.flickr{
+border:solid #a4a;
+border-width: 10px 1px 1px 1px;
+background-color:white;
+padding:1em;
+text-align:center;
+}
+
+.sel{
+float:right;
+}
+</style>
+</head>
+<body>
+<div class="ui-layout-north">
+  <h1 id="title">a</h1>
+  <div class="toolbar">
+    <button class="button" id="newbtn">new</button>
+    <!--<button class="button" id="junkbtn">today</button>-->
+    <a href="./data">list</a>
+    <div class="sel" id="selbox">:----:</div>
+  </div>
+</div>
+<div class="ui-layout-center">
+<div id="wiki"></div>  
+</div>
+<div class="ui-layout-south">
+  <div class="toolbar right">
+    <button class="button" id="savebtn">save</button>
+  </div>
+</div>
+</body>
+</html>
