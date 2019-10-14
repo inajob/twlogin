@@ -1,0 +1,268 @@
+pre{
+    border:dashed 3px;
+    padding:2em;
+    margin:1em;
+    background-color:#ffd;
+    overflow:auto;
+}
+pre.embedcode{
+    border:dashed 3px;
+    padding:2em;
+    margin:1em;
+    background-color:#000;
+    color:white;
+}
+blockquote{
+    border:dashed 1px;
+    padding:1em;
+    margin:1em;
+    background-color:#ddd;
+    font-style: italic;
+}
+div.type{
+    /*border:solid 1px;*/
+    text-align:right;
+}
+/*
+span{
+    margin-left:0.1em;
+    padding:0.5em;
+    background-color:#ddf;
+}
+*/
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:#eef;
+}
+
+.footer{
+    text-align:right;
+    margin:0.5em;
+}
+hr{
+    margin:1em;
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    border:solid 2px #aaf;
+}
+div.title{
+    font-size:1.5em;
+    float:right;
+    text-align:right;
+
+    padding:0.2em;
+    background-color:white;
+    border:solid 1px #aaf;
+    border-width:3px 3px 10px 3px;
+
+    /*margin-right:2em;*/
+    /*padding-right:1em;*/
+
+}
+canvas{
+    background-color:white;
+}
+.clbr{
+    clear:both;
+}
+
+.menu{
+    border:solid 3px #aaf;
+    position:absolute;
+    top:3em;
+    left:0px;
+    width:100px;
+    /*padding:0.5em;*/
+    font-size:xx-small;
+    line-height:1.8em;
+}
+.menu ul{
+    margin-left:0.1em;
+    padding-left:0.1em;
+}
+
+.menu h1{
+    background-color:#aaf;
+}
+.menu h2{
+    background-color:#ddf;
+    border:dashed #aaf;
+    border-width:0px 0px 3px 0px;
+}
+
+
+ul.tab li{
+    float:left;
+    list-style-type:none;
+    border:solid 1px;
+    padding:0.5em;
+    display:block;
+}
+div.buttons{
+
+}
+div.buttons div{
+    float:left;
+    padding:0.5em;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin:1px;
+    border:solid 1px #00f;
+    background-color:#ddf;
+}
+div.buttons .rss-button{
+    background-color:#fdd;
+}
+
+div.content{
+    margin-right:2em;
+    margin-left:150px;
+}
+div.wiki-body{
+/*    margin:2em;*/
+    padding:1em;
+    background-color:white;
+    /*width:90%;*/
+    /*
+    margin-left:auto;
+    margin-right:auto;
+    */
+    border:solid 3px #aaf;
+}
+ul{
+    margin-left:1em;
+    padding-left:0.5em;
+}
+div.wiki-body h1{
+    padding:0.2em;
+    margin:0.3em;
+    margin-left:-1em;
+    font-size:x-large;
+    background-color:#ddf;
+    border:solid #aaf;
+    border-width:0px 0px 0px 1em;
+    text-align:left;
+
+    -webkit-box-shadow: 2px 2px 5px #333;
+    -moz-box-shadow: 2px 2px 5px #333;
+    box-shadow: 2px 2px 5px #333;
+
+    clear:both;
+}
+div.wiki-body h2{
+    font-size:large;
+    margin:0.1em;
+    background-color:#ddf;
+    border:dashed #aaf;
+    border-width:0px 0px 3px 0px;
+
+    clear:both;
+}
+div.wiki-body h3{
+    font-size:medium;
+    margin:0.5em;
+    margin-left:0em;
+    /*background-color:#ddf;*/
+    border:solid;
+    border-width:0px 0px 1px 0px;
+}
+
+div.wiki-body table {
+    border:solid #aaf 3px;
+}
+div.wiki-body table td{
+    border:solid #aaf 3px;
+    padding:0.5em;
+    background-color:#eef;
+}
+
+
+.twitpic{
+border:solid #4aa;
+border-width: 10px 1px 1px 1px;
+background-color:white;
+padding:1em;
+text-align:center;
+float:right;
+margin:0.5em;
+}
+
+.flickr{
+border:solid #a4a;
+border-width: 10px 1px 1px 1px;
+background-color:white;
+padding:1em;
+text-align:center;
+float:right;
+margin:0.5em;
+}
+.twitpic img{
+    border:none;
+}
+.flickr img{
+    border:none;
+}
+
+.box{
+border:solid #66f;
+margin:0.2em;
+background-color:#fff;
+float:left;
+width:310px;
+height:100px;
+font-size:small;
+overflow:auto;
+}
+
+.box div h1{
+    padding:0em;
+    margin:0px;
+    font-size:x-large;
+    background-color:#ddd;
+    /*border:solid #aaf;
+    border-width:0px 0px 0px 1em;*/
+    border:none;
+    text-align:left;
+/*
+    -webkit-box-shadow: 2px 2px 5px #333;
+    -moz-box-shadow: 2px 2px 5px #333;
+    box-shadow: 2px 2px 5px #333;
+*/
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    clear:both;
+}
+.box div h2{
+    font-size:large;
+    margin:0.1em;
+    background-color:#ddf;
+    border:dashed #aaf;
+    border-width:0px 0px 3px 0px;
+
+    clear:both;
+}
+.box div h3{
+    font-size:medium;
+    margin:0.5em;
+    margin-left:0em;
+    border:solid;
+    border-width:0px 0px 1px 0px;
+}
+
+.search-result{
+    border:solid 1px;
+    text-align:left;
+    margin:1px;
+    padding:2px;
+    background-color:white;
+    font-size:xx-small;
+}
+
+.right{
+    text-align:right;
+}
